@@ -4,16 +4,16 @@ import s from "./Message.module.css"
 import AlternativeMessage from "./AlternativeMessage";
 
 const messageData = {
-    avatar: "https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg",
-    name: "Some Name",
-    message: "some text",
+    avatar: "https://store.playstation.com/store/api/chihiro/00_09_000/container/RU/ru/999/EP0149-CUSA09988_00-AV00000000000004/1553541605000/image?w=240&h=240&bg_color=000000&opacity=100&_version=00_09_000",
+    name: "Morty",
+    message: "What are you talking about?",
     time: "22:00",
 };
 
 const altMessageData = {
     avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTPsV0Gjy9q6uTSI_pO3o7SivkvMnNFmZj5ow&usqp=CAU",
-    name: "Maxim",
-    message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    name: "Rick",
+    message: "I turned myself into a pickle. I'm Pickle Riiiiick!",
     time: "22:12",
 }
 

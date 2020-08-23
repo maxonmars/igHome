@@ -7,6 +7,7 @@
 }
 
 .greeting {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 555px;
@@ -34,7 +35,7 @@
 .error {
     position: absolute;
     color: #e67e22;
-    bottom: -50px;
+    bottom: -20px;
     font-size: 12px;
 }
 
