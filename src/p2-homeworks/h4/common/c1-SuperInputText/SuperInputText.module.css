@@ -1,0 +1,102 @@
+.superInput {
+
+}
+
+.errorInput {
+    border: 3px solid lime;
+    background: red;
+}
+
+.error {
+    color: red;
+}
+
+.formGroup {
+    position: relative;
+    padding: 15px 0 0;
+    width: 50%;
+}
+
+.formField {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 4px solid #bdc3c7;
+    border-image: linear-gradient(to right, #ecf0f1, #16a085);
+    border-image-slice: 1;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #ffffff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.formField::placeholder {
+    color: transparent;
+}
+
+.formField:placeholder-shown ~ .formLabel {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+}
+
+.formLabel {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #bdc3c7;
+}
+
+.formField:focus ~ .formLabel {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #1abc9c;
+    font-weight: 700;
+}
+
+.formField:focus {
+    /*padding-bottom: 6px;*/
+    font-weight: 700;
+    border-width: 4px;
+    border-image: linear-gradient(to right, #2ecc71, #16a085);
+    border-image-slice: 1;
+}
+
+.formField:required,
+.formField:invalid {
+    box-shadow: none;
+}
+
+.formFieldError {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 4px solid #e74c3c;
+    border-image: linear-gradient(to right, #e74c3c, #16a085);
+    border-image-slice: 1;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #e74c3c;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+
+.formFieldError::placeholder {
+    color: transparent;
+}
+
+.formFieldError:placeholder-shown ~ .formLabel {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+    color: red;
+}

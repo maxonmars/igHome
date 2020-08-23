@@ -1,3 +1,93 @@
 .someClass {
 
 }
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    margin-left: 110px;
+    justify-content: space-between;
+}
+
+/*.myButton {*/
+/*    box-shadow:inset 0px -3px 7px 0px #29bbff;*/
+/*    background:linear-gradient(to bottom, #2dabf9 5%, #487eb0 100%);*/
+/*    background-color:#487eb0;*/
+/*    border-radius:3px;*/
+/*    border:1px solid #0b0e07;*/
+/*    display:inline-block;*/
+/*    cursor:pointer;*/
+/*    color:#ffffff;*/
+/*    font-family:Arial;*/
+/*    font-size:15px;*/
+/*    padding:4px 10px;*/
+/*    text-decoration:none;*/
+/*    text-shadow:0px 1px 0px #263666;*/
+/*}*/
+/*.myButton:hover {*/
+/*    background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);*/
+/*    background-color:#0688fa;*/
+/*}*/
+/*.myButton:active {*/
+/*    position:relative;*/
+/*    top:1px;*/
+/*}*/
+
+.affairs {
+    list-style: none;
+    margin: 0 0 10px;
+    padding: 0;
+    flex-grow: 1;
+
+}
+
+.affair {
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.affairName {
+    flex-basis: 216px;
+    color: #f39c12;
+    font-weight: bold;
+    align-content: end;
+}
+
+.affairPriorityWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 298px;
+    /*margin-bottom: 5px;*/
+    border-bottom: 4px solid #1abc9c;
+    border-image: linear-gradient(to right, #2ecc71, #16a085);
+    border-image-slice: 1;
+}
+
+.priority {
+    margin-left: 5px;
+    color: #3498db;
+    font-size: 10px;
+    opacity: 0.9;
+    text-shadow: 0px 0px 3px #f1c40f;
+}
+
+.btn:hover::after {
+    right: 680% !important;
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    width: 10px !important;
+    height: 5px;
+    background: #2c3e50;
+    transform: skewX(50deg);
+    transition: 1s linear !important;
+}
+
+.controlPanel {
+    flex-grow: 0;
+}

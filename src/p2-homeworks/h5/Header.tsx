@@ -1,10 +1,12 @@
 import React from "react";
 
-function AlternativeAffairs(props: any) {
+function Header() {
     return (
         <div>
+            // add NavLinks
+
         </div>
     );
 }
 
-export default AlternativeAffairs;
+export default Header;

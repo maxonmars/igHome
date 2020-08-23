@@ -1,0 +1,53 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+
+.checkbox {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    color: #bdc3c7;
+    margin-bottom: 20px;
+    padding-left: 36px;
+}
+
+.checkbox input {
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox .check {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 20px;
+    width: 20px;
+    background: #bdc3c7;
+    color: #2c3e50;
+    text-align: center;
+    transition: 0.5s all;
+}
+
+.checkbox .check:before {
+    content: "\f122";
+    font-family: Ionicons;
+    display: none;
+}
+
+.checkbox:hover > .check {
+    opacity: 0.8;
+}
+
+.checkbox input:focus ~ .check {
+    outline: 1px solid #e67e22;
+}
+
+.checkbox input:checked ~ .check {
+    background: #1abc9c;
+}
+
+.checkbox input:checked ~ .check:before {
+    display: block;
+}
+
+.spanClassName {
+
+}
