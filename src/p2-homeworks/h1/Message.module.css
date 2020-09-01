@@ -39,7 +39,13 @@
     color: #f39c12;
 }
 
+.MsgCloud p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .MsgCloud time {
+    font-size: 12px;
     position: absolute;
     bottom: 16px;
     right: 20px;
@@ -50,7 +56,6 @@
 
 .Message {
     display: flex;
-
     margin-top: 40px;
 
 }

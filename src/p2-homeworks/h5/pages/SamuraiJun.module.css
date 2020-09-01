@@ -1,0 +1,9 @@
+.body {
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.hello {
+    text-align: center;
+    color: #2ecc71;
+}

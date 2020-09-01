@@ -1,0 +1,22 @@
+.body {
+    height: 100vh;
+    padding-top: 200px;
+}
+
+.errorNumber {
+    text-align: center;
+    font-size: 108px;
+    color: #2ecc71;
+}
+
+.textError {
+    text-align: center;
+    font-size: 54px;
+    color: #e74c3c;
+}
+
+.errorCat {
+    text-align: center;
+    font-size: 108px;
+    color: #f1c40f;
+}

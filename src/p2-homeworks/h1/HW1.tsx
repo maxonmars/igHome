@@ -27,19 +27,13 @@ export interface MessageType {
 function HW1() {
     return (
         <div className={s.message}>
-            <hr/>
-            homeworks 1
-
             {/*should work (должно работать)*/}
-
             <Message
                 avatar={messageData.avatar}
                 name={messageData.name}
                 message={messageData.message}
                 time={messageData.time}
             />
-
-            <hr/>
             {/*для личного творчества, могу проверить*/}
             <AlternativeMessage
             avatar={altMessageData.avatar}
@@ -47,7 +41,6 @@ function HW1() {
             message={altMessageData.message}
             time={altMessageData.time}
             />
-            <hr/>
         </div>
     );
 }
