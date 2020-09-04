@@ -47,13 +47,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .affairName {
-    flex-basis: 216px;
+    /*flex-basis: 216px;*/
     color: #f39c12;
     font-weight: bold;
-    align-content: end;
+    /*align-content: end;*/
 }
 
 .affairPriorityWrapper {
@@ -90,4 +91,9 @@
 
 .controlPanel {
     flex-grow: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    margin-bottom: 20px;
+
 }

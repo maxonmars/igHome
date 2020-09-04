@@ -40,10 +40,20 @@ export const deleteAffair = (affairs: Array<AffairType>, _id: number): Array<Aff
 
 function HW2() {
     const [affairs, setAffairs] = useState<Array<AffairType>>(defaultAffairs); // Хук состояния дел
+
     const [filter, setFilter] = useState<FilterType>("all"); // Хук состояния фильтров
 
+
     const filteredAffairs = filterAffairs(affairs, filter);
+
     const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id));
+
+    const changeAffairTitle = (_id: number, text: string) => {
+        let newTitle = affairs.find(af => af._id === _id)
+        if (newTitle)
+            newTitle.name = text
+        setAffairs([...affairs])
+    }
 
     return (
         <div className={s.body}>
@@ -52,6 +62,7 @@ function HW2() {
                 data={filteredAffairs}
                 setFilter={setFilter}
                 deleteAffairCallback={deleteAffairCallback}
+                changeAffairTitle={changeAffairTitle}
             />
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeAffairs/>*/}

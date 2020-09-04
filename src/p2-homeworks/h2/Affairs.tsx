@@ -8,6 +8,7 @@ type AffairsPropsType = {
     data: Array<AffairType>
     setFilter: (value: FilterType) => void
     deleteAffairCallback: (id: number) => void
+    changeAffairTitle: (id: number, text: string) => void
 }
 
 function Affairs(props: AffairsPropsType) {
@@ -16,6 +17,8 @@ function Affairs(props: AffairsPropsType) {
             key={a._id} // кеи ОБЯЗАТЕЛЬНЫ в 99% - так что лучше их писать всегда при создании компонент в мапе
             affair={a}
             deleteAffairCallback={props.deleteAffairCallback}
+            id={a._id}
+            changeAffairTitle={props.changeAffairTitle}
         />
     ))
 
