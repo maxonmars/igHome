@@ -26,6 +26,8 @@ function HW6() {
                     value={value}
                     onChangeText={setValue}
                     spanProps={{children: value ? undefined : "enter text..."}}
+                    onEnter={()=>(alert(1))}
+                    // className={s.wefweffe}
                 />
             </div>
             <SuperButton onClick={save}>save</SuperButton>

@@ -14,6 +14,7 @@ type SuperEditableSpanType = DefaultInputPropsType & { // и + ещё пропс
     onEnter?: () => void
     error?: string
     spanClassName?: string
+    affires?: string
 
     spanProps?: DefaultSpanPropsType // пропсы для спана
 };
@@ -71,7 +72,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
                     >
                         {/*если нет захардкодженного текста для спана, то значение инпута*/}
                         {children || restProps.value}
-                    </span></div>
+                    </span><sup>{restProps.affires}</sup></div>
                 )
             }
         </div>

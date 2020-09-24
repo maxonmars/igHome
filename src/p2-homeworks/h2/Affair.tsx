@@ -26,6 +26,7 @@ function Affair(props: AffairPropsType) {
             <li className={s.affair}>
                 <SuperEditableSpan
                     value={props.affair.name}
+                    affires={props.affair.priority}
                                    onChangeText={onTitleChangeHandler}
                                    spanProps={{children: props.affair.name ? undefined : "enter text..."}}/>
                 {/*<div className={s.affairPriorityWrapper}>*/}
