@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eaf83e3cc007a089c0fd15fc220a7dbf",
+    "revision": "6ff626247f770a001c4790df86ab0604",
     "url": "/igHome/index.html"
   },
   {
-    "revision": "cfbfc67d53b988cf536d",
+    "revision": "a83cf65c6d135da4b0f1",
     "url": "/igHome/static/css/main.cf91ef3d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/igHome/static/js/2.2a596196.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cfbfc67d53b988cf536d",
-    "url": "/igHome/static/js/main.7ed443a5.chunk.js"
+    "revision": "a83cf65c6d135da4b0f1",
+    "url": "/igHome/static/js/main.ebe91a01.chunk.js"
   },
   {
     "revision": "10543760ca47ff1a2fd5",
