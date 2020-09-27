@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/igHome/static/css/main.cf91ef3d.chunk.css",
-    "main.js": "/igHome/static/js/main.eb54278c.chunk.js",
-    "main.js.map": "/igHome/static/js/main.eb54278c.chunk.js.map",
+    "main.js": "/igHome/static/js/main.f61d0a45.chunk.js",
+    "main.js.map": "/igHome/static/js/main.f61d0a45.chunk.js.map",
     "runtime-main.js": "/igHome/static/js/runtime-main.612c0876.js",
     "runtime-main.js.map": "/igHome/static/js/runtime-main.612c0876.js.map",
-    "static/js/2.2a596196.chunk.js": "/igHome/static/js/2.2a596196.chunk.js",
-    "static/js/2.2a596196.chunk.js.map": "/igHome/static/js/2.2a596196.chunk.js.map",
+    "static/js/2.5234c3e0.chunk.js": "/igHome/static/js/2.5234c3e0.chunk.js",
+    "static/js/2.5234c3e0.chunk.js.map": "/igHome/static/js/2.5234c3e0.chunk.js.map",
     "index.html": "/igHome/index.html",
-    "precache-manifest.3a457ee7792792d232b218ec504a437a.js": "/igHome/precache-manifest.3a457ee7792792d232b218ec504a437a.js",
+    "precache-manifest.5d7bf797472377f4efb4f72851adbb4b.js": "/igHome/precache-manifest.5d7bf797472377f4efb4f72851adbb4b.js",
     "service-worker.js": "/igHome/service-worker.js",
     "static/css/main.cf91ef3d.chunk.css.map": "/igHome/static/css/main.cf91ef3d.chunk.css.map",
-    "static/js/2.2a596196.chunk.js.LICENSE.txt": "/igHome/static/js/2.2a596196.chunk.js.LICENSE.txt"
+    "static/js/2.5234c3e0.chunk.js.LICENSE.txt": "/igHome/static/js/2.5234c3e0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.612c0876.js",
-    "static/js/2.2a596196.chunk.js",
+    "static/js/2.5234c3e0.chunk.js",
     "static/css/main.cf91ef3d.chunk.css",
-    "static/js/main.eb54278c.chunk.js"
+    "static/js/main.f61d0a45.chunk.js"
   ]
 }
