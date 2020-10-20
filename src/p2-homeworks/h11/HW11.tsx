@@ -27,7 +27,7 @@ function HW11() {
 
             <div>
                 <span>{value1}</span>
-                <SuperDoubleRange value={[value1,value2]} onChangeRange={onChangeRange} max={200} min={20} dots={true}
+                <SuperDoubleRange value={[value1, value2]} onChangeRange={onChangeRange} max={100} min={0} dots={true}
                                   step={10} disable={false}
                     // сделать так чтоб value1 и value2 изменялось
                 />

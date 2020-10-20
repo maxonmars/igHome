@@ -25,7 +25,6 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
         console.log('Class: , Function: onChangeSlideRange, Line: 21 e(Array<number>):', e);
         console.log('Class: , Function: onChangeSlideRange, Line: 22 value([number,number]):', value);
     }
-
     return (
         <div className={s.sliderWrapper}>
             <Range
