@@ -28,7 +28,7 @@ function HW4() {
                     onEnter={showAlert}
                     error={error}
                     placeholder={"Input"}
-                    // className={s.blue} // проверьте, рабоет ли смешивание классов
+                    className={s.blue} // проверьте, рабоет ли смешивание классов
                 />
 
                 {/*should work (должно работать)*/}
