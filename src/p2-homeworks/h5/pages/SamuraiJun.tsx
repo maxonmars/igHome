@@ -1,10 +1,11 @@
 import React from "react";
 import s from "./SamuraiJun.module.css"
+import HW12 from "../../h12/HW12";
 
 function SamuraiJun() {
     return (
         <div className={s.body}>
-            <h1 className={s.hello}>Приветствую Самурай Джун!=)))</h1>
+            <HW12/>
         </div>
     );
 }
